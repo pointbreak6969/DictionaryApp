@@ -28,6 +28,7 @@ const Dictionary = () => {
 
   return (
     <div className="container shadow p-5 mt-5">
+      <h1 style={{textAlign:"center"}}>Dictionary App</h1>
       <form action="" className="d-flex align-items-center justify-content-center">
         <input
           type="text"
@@ -37,6 +38,8 @@ const Dictionary = () => {
             
           }}
           className="form-control"
+          palceholder ="
+          Enter the word you want to search"
         />
         <button className="btn btn-danger" disabled={!keyword} type="submit" onClick={handleSearch}>
           Search
